@@ -58,7 +58,11 @@ done
 
 # sync: adopt the canonical theme recorded in STATE_FILE's import line.
 if [ "$theme" = "sync" ]; then
-  theme=$(grep -o '[^"/]*\.toml' "$STATE_FILE" | tail -1 | sed 's/\.toml$//')
+  theme=$(grep -o '[^"/]*\.toml' "$STATE_FILE" 2>/dev/null | tail -1 | sed 's/\.toml$//')
+  if [ -z "$theme" ]; then
+    echo "sync: no theme import found in $STATE_FILE" >&2
+    exit 1
+  fi
 fi
 
 if [ ! -f "$THEME_DIR/$theme.toml" ]; then
