@@ -1,0 +1,2 @@
+# Active colorscheme. Change via switch_colorscheme.sh <theme-name>.
+import = ["/Users/asapci/.config/theme/themes/gruvbox_dark.toml"]
