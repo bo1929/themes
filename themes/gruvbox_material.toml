@@ -1,7 +1,7 @@
-# gruvbox material — converted from alacritty/colorschemes/gruvbox.yaml
+# gruvbox material — slightly harder paper and brighter ink; hues unchanged.
 [colors.primary]
-background = "0x282828"
-foreground = "0xdfbf8e"
+background = "0x1d2021"
+foreground = "0xe2cca9"
 
 [colors.normal]
 black = "0x665c54"
@@ -11,7 +11,7 @@ yellow = "0xe78a4e"
 blue = "0x7daea3"
 magenta = "0xd3869b"
 cyan = "0x89b482"
-white = "0xdfbf8e"
+white = "0xe2cca9"
 
 [colors.bright]
 black = "0x928374"
@@ -21,4 +21,4 @@ yellow = "0xe3a84e"
 blue = "0x7daea3"
 magenta = "0xd3869b"
 cyan = "0x89b482"
-white = "0xdfbf8e"
+white = "0xe2cca9"

@@ -1,8 +1,7 @@
-# gruvbox light, medium contrast — converted from alacritty/colorschemes/gruvbox.yaml
-# (the plain gruvbox_light.toml uses hard contrast #f9f5d7)
+# gruvbox light, medium paper (#fbf1c7) with fg0 ink (#282828).
 [colors.primary]
 background = "0xfbf1c7"
-foreground = "0x3c3836"
+foreground = "0x282828"
 
 [colors.normal]
 black = "0xfbf1c7"
@@ -22,4 +21,4 @@ yellow = "0xb57614"
 blue = "0x076678"
 magenta = "0x8f3f71"
 cyan = "0x427b58"
-white = "0x3c3836"
+white = "0x282828"

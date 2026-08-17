@@ -85,11 +85,11 @@ fi
 if [ "$SWITCH_TMUX" = "1" ]; then
   # theme -> status bar foreground; empty means "leave tmux alone".
   case "$theme" in
-    gruvbox_dark)            tmux_fg="#ebdbb2" ;;
-    gruvbox_light)           tmux_fg="#3c3836" ;;
-    gruvbox_dark_medium)     tmux_fg="#ebdbb2" ;;
-    gruvbox_light_medium)    tmux_fg="#3c3836" ;;
-    gruvbox_material)        tmux_fg="#dfbf8e" ;;
+    gruvbox_dark)            tmux_fg="#fbf1c7" ;;
+    gruvbox_light)           tmux_fg="#282828" ;;
+    gruvbox_dark_medium)     tmux_fg="#fbf1c7" ;;
+    gruvbox_light_medium)    tmux_fg="#282828" ;;
+    gruvbox_material)        tmux_fg="#e2cca9" ;;
     everforest_dark_soft)    tmux_fg="#d3c6aa" ;;
     everforest_light_soft)   tmux_fg="#465158" ;;
     everforest_dark_medium)  tmux_fg="#d3c6aa" ;;
