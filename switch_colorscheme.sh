@@ -73,8 +73,12 @@ fi
 
 # --- component: alacritty ---
 if [ "$SWITCH_ALACRITTY" = "1" ]; then
+  case "$THEME_DIR" in
+    "$HOME"/*) theme_import="~/${THEME_DIR#"$HOME"/}/$theme.toml" ;;
+    *)         theme_import="$THEME_DIR/$theme.toml" ;;
+  esac
   printf '# Active colorscheme. Change via switch_colorscheme.sh <theme-name>.\nimport = ["%s"]\n' \
-    "$THEME_DIR/$theme.toml" > "$STATE_FILE"
+    "$theme_import" > "$STATE_FILE"
 fi
 
 # --- component: tmux ---
