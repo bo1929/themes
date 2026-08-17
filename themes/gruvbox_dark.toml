@@ -1,11 +1,11 @@
 # gruvbox dark (hard) — bg matches vim's g:gruvbox_contrast_dark='hard' (#1d2021).
 [colors.primary]
-background = "0x1d2021"
+background = "0x212121"
 foreground = "0xebdbb2"
 
 [colors.normal]
 black = "0x1d2021"
-red = "0xcc241d"
+red = "0xff4411"
 green = "0x98971a"
 yellow = "0xd79921"
 blue = "0x458588"
